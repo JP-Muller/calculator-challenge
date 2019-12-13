@@ -1,0 +1,46 @@
+.logic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.logic-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 91vw;
+  border: solid 2px orange;
+  background: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  border-bottom: solid 0.5px orange;
+}
+
+.history-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 91vw;
+  min-height: 170px;
+  background: black;
+  border-bottom: solid 2px orange;
+  border-right: solid 2px orange;
+  border-left: solid 2px orange;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 5px 0px 5px 0px;
+  font-size: 20px;
+}

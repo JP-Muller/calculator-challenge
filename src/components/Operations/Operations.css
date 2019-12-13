@@ -1,0 +1,65 @@
+.operation-header {
+  display: flex;
+  justify-content: center;
+  width: 30.16vw;
+  font-size: 20px;
+  background: black;
+  color: white;
+  border-bottom: solid 2px orange;
+  border-right: solid 2px orange;
+  border-left: solid 2px orange;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+.operation-header:hover {
+  background: rgb(63, 63, 63);
+}
+.operate-solve-container {
+  display: flex;
+  flex-direction: row;
+}
+.solve-button {
+  display: flex;
+  justify-content: center;
+  width: 15.2vw;
+  font-size: 20px;
+  background: black;
+  color: white;
+  border-bottom: solid 2px orange;
+  border-right: solid 2px orange;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+.operate-button {
+  display: flex;
+  justify-content: center;
+  width: 15vw;
+  font-size: 20px;
+  background: black;
+  color: white;
+  border-bottom: solid 2px orange;
+  border-right: solid 2px orange;
+  border-left: solid 2px orange;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+}
+.operate-button:hover {
+  background: rgb(63, 63, 63);
+}
+.solve-button:hover {
+  background: rgb(63, 63, 63);
+}
+
+.keypad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-toggled {
+  opacity: 0.3;
+}
+
+.not-toggled:hover {
+  opacity: 0.4;
+}
